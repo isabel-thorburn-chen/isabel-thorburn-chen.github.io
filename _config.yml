@@ -14,11 +14,11 @@ locale                   : "en-US"
 title                    : "Isabel Chen"
 title_separator          : "-"
 subtitle                 : "Digital Fabrication Portfolio"
-name                     : &name "Isabel CHen" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
+name                     : &name "Isabel Chen" # &name is a YAML anchor which can be *referenced later
+description              : &description "Digital Fabrication portfolio — ChBE 4200, Vanderbilt University"
 url                      : https://isabel-thorburn-chen.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : 
+repository               : isabel-thorburn-chen/isabel-thorburn-chen.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -84,7 +84,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.instagram.com/dr.dflo"
+    - "https://github.com/isabel-thorburn-chen"
 
 # Analytics
 analytics:
@@ -97,16 +97,16 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
-  bio              : "An engineer with a passion for teaching "
+  avatar           : "assets/img/isabel_headshot.jpg"
+  bio              : ""
   location         : "Nashville, TN"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
+      url: "https://github.com/isabel-thorburn-chen"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: ""
 
 
 # Site Footer
@@ -114,10 +114,10 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
+      url: "https://github.com/isabel-thorburn-chen"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: ""
 
 
 # Reading Files
