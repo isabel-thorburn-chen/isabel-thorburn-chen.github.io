@@ -8,12 +8,12 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Write a short intro about yourself here."
+excerpt: "Isabel Chen is a student studying Chemical Engineering at Vanderbilt University. She is also passionate about her minor in Digital Fabrication."
 feature_row:
   - image_path: assets/img/Phone-Case-Thumbnail.jpg
     alt: "3D Printed Phone Case"
     title: "3D Printed Phone Case"
-    excerpt: "Write a short description here."
+    excerpt: "A phone case I designed in Fusion and printed to protect my iPhone."
   - image_path: assets/img/CAD-Design-Thumbnail.jpg
     alt: "CAD Design"
     title: "CAD Design"
