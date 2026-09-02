@@ -49,7 +49,7 @@ gallery:
 
 ## Code
 
-[View the Arduino code](https://github.com/isabel-thorburn-chen/isabel-thorburn-chen.github.io/blob/main/code/syringe_pump.ino)
+[View the Arduino code](https://github.com/isabel-thorburn-chen/isabel-thorburn-chen.github.io/blob/main/_portfolio/syringe_pump.ino)
 
 ## CAD Model
 
