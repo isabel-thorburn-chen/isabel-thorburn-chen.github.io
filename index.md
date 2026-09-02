@@ -1,4 +1,4 @@
-d---
+---
 title: "Isabel Chen"
 layout: splash
 header:
