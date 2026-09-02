@@ -8,19 +8,15 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "" # TODO: 1-2 sentence intro about yourself, in your own words
+excerpt: "Write a short intro about yourself here."
 feature_row:
   - image_path: assets/img/Phone-Case-Thumbnail.jpg
     alt: "3D Printed Phone Case"
     title: "3D Printed Phone Case"
-    excerpt: "" # TODO: short description in your own words
+    excerpt: "Write a short description here."
   - image_path: assets/img/CAD-Design-Thumbnail.jpg
-    alt: "" # TODO
-    title: "" # TODO: name this project
-    excerpt: "" # TODO
-  - image_path:
-    alt:
-    title:
-    excerpt:
+    alt: "CAD Design"
+    title: "CAD Design"
+    excerpt: "Write a short description here."
 ---
 {% include feature_row %}
