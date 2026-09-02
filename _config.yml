@@ -115,9 +115,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/isabel-thorburn-chen"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: ""
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/isabel-thorburn-chen/"
 
 
 # Reading Files
