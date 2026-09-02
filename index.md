@@ -13,14 +13,14 @@ feature_row:
   - image_path: assets/img/Phone-Case-Printed.jpg
     alt: "3D Printed Phone Case"
     title: "3D Printed Phone Case"
-    excerpt: "Write a short description here."
+    excerpt: "Various iterations of the 3D printed phone case I designed to protect my iPhone."
   - image_path: assets/img/Phone-Case-CAD.jpg
     alt: "Phone Case CAD Model"
     title: "Phone Case — CAD"
-    excerpt: "Write a short description here."
+    excerpt: "CAD Model of the phone case design from which it was 3D printed."
   - image_path: assets/img/Flexible-Coupler-CAD.jpg
     alt: "Flexible Coupler CAD Model"
     title: "Flexible Coupler — CAD"
-    excerpt: "Write a short description here."
+    excerpt: "CAD model of the flexible coupler used in the assembly of the final syringe pump."
 ---
 {% include feature_row %}
