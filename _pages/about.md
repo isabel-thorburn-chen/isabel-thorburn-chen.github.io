@@ -12,19 +12,19 @@ hands-on manufacturing and process experience from work in industry.
   * Minors: Chemistry, Data Science, Digital Fabrication
 
 ## Experience
-**Tutor** — Ingram Center for Student-Athlete Success · *Nashville, TN*
+**Tutor** — Ingram Center for Student-Athlete Success · *Nashville, TN*<br>
 August 2025 – Present
 
-**Business Analyst Intern** — NCB Capital Markets · *Kingston, Jamaica*
+**Business Analyst Intern** — NCB Capital Markets · *Kingston, Jamaica*<br>
 July – August 2026
 
-**Operations & Manufacturing Intern** — Blue Power Limited · *Kingston, Jamaica*
+**Operations & Manufacturing Intern** — Blue Power Limited · *Kingston, Jamaica*<br>
 May – June 2026
 
-**Research Assistant** — National Plant Institute · *Kingston, Jamaica*
+**Research Assistant** — National Plant Institute · *Kingston, Jamaica*<br>
 July 2025
 
-**UX & UI Intern** — Now Boarding Digital · *Cape Town, South Africa*
+**UX & UI Intern** — Now Boarding Digital · *Cape Town, South Africa*<br>
 May – June 2025
 
 ## Technical Skills
