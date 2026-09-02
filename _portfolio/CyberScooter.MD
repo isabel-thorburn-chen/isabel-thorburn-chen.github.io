@@ -9,10 +9,11 @@ gallery:
     image_path: assets/img/Syringe-Pump-1.jpg
     alt: "Syringe pump — front view"
 ---
-<This syringe pump was designed to deliver specified volumes of fluid at specified flow rates. It is able to move the piston of the syringe both forward and backward.>
+
+<!-- TODO: Purpose & features paragraph, in your own words -->
 
 
-## Materials List 
+## Materials List
 
 ### Off-the-shelf parts
 
@@ -48,8 +49,7 @@ gallery:
 
 ## Code
 
-<!-- TODO: link to the Arduino code once it's pushed to your repo -->
-[View the Arduino code](#)
+[View the Arduino code](https://github.com/isabel-thorburn-chen/isabel-thorburn-chen.github.io/blob/main/code/syringe_pump.ino)
 
 ## CAD Model
 
