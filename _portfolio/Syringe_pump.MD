@@ -10,9 +10,9 @@ gallery:
     alt: "Syringe pump — front view"
 ---
 
-<This syringe pump is a compact, motor-driven device designed to deliver precise flow for laboratory and prototyping applications. A NEMA-17 stepper motor drives a lead screw, turning rotational motion into linear actuation of the syringe plunger, allowing for accurate, programmable volumetric flow control. The design accommodates both 10 mL and 20 mL syringes through an adjustable holder and carriage.
+This syringe pump is a compact, motor-driven device designed to deliver precise flow for laboratory and prototyping applications. A NEMA-17 stepper motor drives a lead screw, turning rotational motion into linear actuation of the syringe plunger, allowing for accurate, programmable volumetric flow control. The design accommodates both 10 mL and 20 mL syringes through an adjustable holder and carriage.
 
-Key features include a tri-color LED that indicates system status (green for running, yellow for paused, red for empty), a limit switch that automatically halts the motor when the plunger has travelled its maximum range and a button for start and pause control. All electronics are fully enclosed to protect against liquid exposure, and flow rate and syringe size can be directly changed in the Arduino code via adjustable global variables.>
+Key features include a tri-color LED that indicates system status (green for running, yellow for paused, red for empty), a limit switch that automatically halts the motor when the plunger has travelled its maximum range and a button for start and pause control. All electronics are fully enclosed to protect against liquid exposure, and flow rate and syringe size can be directly changed in the Arduino code via adjustable global variables.
 
 
 ## Materials List
