@@ -1,4 +1,4 @@
----
+d---
 title: "Isabel Chen"
 layout: splash
 header:
@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Isabel Chen is a student studying Chemical Engineering at Vanderbilt University. She is also passionate about her minor in Digital Fabrication."
+excerpt: "Isabel Chen is a student studying Chemical Engineering at Vanderbilt University. She is also passionate about her minor in Digital Fabrication. This site is meant to showcase the projects she works on in pursuit of the DF minor."
 feature_row:
   - image_path: assets/img/Phone-Case-Printed.jpg
     alt: "3D Printed Phone Case"
