@@ -3,7 +3,7 @@ title: "Syringe Pump"
 excerpt: "" # TODO: 1-2 sentence purpose/feature summary, in your own words
 header:
   image: /assets/img/Syringe-Pump-Banner.jpg
-  teaser: /assets/img/Syringe-Pump-TH.jpg
+  teaser: /assets/img/Syringe-Pump-Banner.jpg
 gallery:
   - url: /assets/img/Syringe-Pump-1.jpg
     image_path: assets/img/Syringe-Pump-1.jpg
