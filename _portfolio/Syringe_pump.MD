@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "" # TODO: 1-2 sentence purpose/feature summary, in your own words
+excerpt: "A syringe pump that can deliver specified volumes of liquid at specified flow rates." 
 header:
   image: /assets/img/Syringe-Pump-Banner.jpg
   teaser: /assets/img/Syringe-Pump-Banner.jpg
