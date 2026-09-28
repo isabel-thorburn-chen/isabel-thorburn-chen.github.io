@@ -23,7 +23,11 @@ gallery:
 
 Print-in-place is a 3D printing technique that produces a design with multiple components, including moving or interlocking parts, in one continuous print job, with no assembly or post-processing afterwards. The connected parts are oriented and spaced with clearances that allow motion or rotation between them.
 
-To avoid brittle joints, print-in-place works well when it combines a rigid and a flexible material, for example PETG and TPU.
+Print-in-place works well when it combines a rigid and a flexible material, for example PETG and TPU, so the rigid parts carry the load and the flexible parts act as springs or hinges. This makes it a multi-material print, which allows more functional parts than a single material can, but it is slower and has a higher chance of failing.
+
+Combining a rigid and a flexible material also makes bonding harder. How well two plastics bond depends on their surface energy, chemical composition, shrinkage and cooling rates, and mechanical compatibility. Materials with very different stiffness, like PETG and TPU, may not bond well on their own. One way around this is a material-locking connection designed into the CAD model, such as a form-fit (dovetail-style) joint, where the shape holds the materials together instead of relying on adhesion alone.
+
+TPU also has to be printed on a direct drive printer, because a Bowden extruder cannot reliably push flexible filament through the long tube.
 
 ## Print-in-place in the wild
 
