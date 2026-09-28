@@ -55,21 +55,21 @@ A 2014 article by Kacie Hultgren on why print-in-place designs are such a demand
 
 The pliers are designed to pick up as many resistor leads as possible in one minute. Needle-nose pliers have fine tips that give good control when picking up, holding and moving small parts, which makes them well suited to moving resistor leads quickly and accurately.
 
-### 2. Pivot design
+### 2. Design and assembly check
 
-The design has three parts: two handles and a spring. I used a press-fit pin-in-hole joint to connect the handles and printed iterations with pin diameters from 1 mm to 3 mm. The best diameter was the one that let the pin go in while still leaving enough clearance for the jaws to move freely. I made the pin slightly longer than the handle thickness so it had enough length in the hole to stay seated without wobbling. The pivot was designed so the two arms sit directly on top of each other without colliding.
+The design has three parts: two handles and a TPU hinge. I designed each handle separately, then assembled them in CAD to check the motion. The jaws didn't close when the handles did, so before printing anything I moved the joint further up the handles until the jaw tips met when the handles closed.
 
-### 3. Spring and hinge iterations
+### 3. Pivot iterations
 
-My first idea for the spring was an angled slot, where the TPU piece would sit at an angle between the handles and bend as they closed. I moved to a compression-loaded notch instead, where the TPU insert sits in a notch on each handle and gets squeezed as the handles close. The compression approach worked better because the TPU stays held in place by the notches rather than relying on the slot to stop it slipping out, and it pushes the handles back open more consistently each time.
+The handles connect with a press-fit peg-in-hole joint. On my first print the peg fitted, but it was too thin and snapped easily, so I made both the peg and the hole larger to make the joint sturdier. I also designed the peg to be 2 mm longer than the other side of the joint.
 
-### 4. Tolerance testing
+### 4. Material and thickness changes
 
-I tested the fit between the pivot and the hole by printing versions with an interference of 0 to 3 mm. At 3 mm the pin was too loose and the jaws fell apart, and with no space, it was too tight to move. I landed on 2 mm, which held the TPU insert securely without making the handles stiff to close.
+The first print was in PLA, which turned out to be too brittle for a part that flexes and takes load at the pivot. I reprinted in PETG, which is tougher and less likely to crack. I also reduced the thickness of the pliers from 1 cm to 0.6 cm.
 
-### 5. What went wrong and got fixed
+### 5. Hinge iterations
 
-In the assembly motion test, the jaw tips didn't meet when the handles were fully closed. The problem was the position of the pivot, the ratio between the jaw offset and the jaw length meant the jaws needed more rotation to close than the handles could give before they hit each other. Moving the pivot changed that ratio so the tips met fully when the handles closed.
+My first hinge was a simple rectangle of TPU pressed between the handles. These print quickly, so I made several, but I wanted something more secure. I redesigned the hinge with circular ends that press-fit into matching slots in the handles, so there's something holding the hinge in place instead of relying on friction alone.
 
 ## Specifications
 
@@ -90,13 +90,13 @@ In the assembly motion test, the jaw tips didn't meet when the handles were full
 
 | Setting | PETG (rigid parts) | TPU 90A (flexible insert) |
 |---------|--------------------|---------------------------|
-| Printer | Voron300 | Voron |
+| Printer | Voron300 | Voron300 |
 | Nozzle diameter | 0.6 mm | 0.6 mm |
 | Nozzle temperature | 245 C | 240 C |
 | Bed temperature | 80 C | 60 C |
-| Layer height | 0.15 mm | 0.15 mm |
+| Layer height | 0.3 mm | 0.2 mm |
 | Infill | 15% | 25% |
-| Print speed | TODO | TODO |
+| Print speed | 80 mm/s| 35 mm/s |
 | Supports | Everywhere | Everywhere |
 
 ## Pliers in action
