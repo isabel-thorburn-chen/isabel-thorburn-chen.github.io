@@ -1,5 +1,5 @@
 ---
-title: "Print-in-Place Pliers"
+title: "Multi-material Pliers"
 excerpt: "" # TODO: one-sentence description (this is what shows on the Portfolio archive page)
 header:
   image: /assets/img/Pliers-Banner.jpg
@@ -90,14 +90,14 @@ In the assembly motion test, the jaw tips didn't meet when the handles were full
 
 | Setting | PETG (rigid parts) | TPU 90A (flexible insert) |
 |---------|--------------------|---------------------------|
-| Printer | TODO | TODO |
-| Nozzle diameter | TODO | TODO |
-| Nozzle temperature | TODO | TODO |
-| Bed temperature | TODO | TODO |
-| Layer height | TODO | TODO |
-| Infill | TODO | TODO |
+| Printer | Voron300 | Voron |
+| Nozzle diameter | 0.6 mm | 0.6 mm |
+| Nozzle temperature | 245 C | 240 C |
+| Bed temperature | 80 C | 60 C |
+| Layer height | 0.15 mm | 0.15 mm |
+| Infill | 15% | 25% |
 | Print speed | TODO | TODO |
-| Supports | TODO | TODO |
+| Supports | Everywhere | Everywhere |
 
 ## Pliers in action
 
