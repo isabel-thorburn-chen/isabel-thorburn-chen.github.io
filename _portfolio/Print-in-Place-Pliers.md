@@ -1,6 +1,6 @@
 ---
 title: "Multi-material Pliers"
-excerpt: "" # TODO: one-sentence description (this is what shows on the Portfolio archive page)
+excerpt: "A pair of multi-material 3D printed needle nose pliers." # TODO: one-sentence description (this is what shows on the Portfolio archive page)
 header:
   image: /assets/img/Pliers-Banner.jpg
   teaser: /assets/img/Pliers-Banner.jpg
