@@ -35,9 +35,13 @@ TPU also has to be printed on a direct drive printer, because a Bowden extruder 
 
 ### Print-in-place in the wild
 
+[![Print-in-Place Spring-Loaded Box](/assets/img/wild-instructables.jpg){: width="300"}](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)
+
 **[Print-in-Place Spring-Loaded Box (Instructables)](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)**
 
 An application of print-in-place is a box with a built-in spring mechanism, as seen in this example. The box comes off the printer with its moving parts already working, so no assembly is needed. The tutorial walks through designing it in Fusion 360 and shares tips for making sure the moving parts don't fuse together during printing.
+
+[![Maker Faire robot action figure](/assets/img/wild-make.jpg){: width="300"}](https://makezine.com/article/digital-fabrication/3d-printing-workshop/print-in-place-the-additive-holy-grail/)
 
 **[Print-in-Place: The Additive Holy Grail (Make:)](https://makezine.com/article/digital-fabrication/3d-printing-workshop/print-in-place-the-additive-holy-grail/)**
 
