@@ -21,11 +21,15 @@ gallery:
 
 ## What is print-in-place?
 
+
 Print-in-place is a 3D printing technique that produces a design with multiple components, including moving or interlocking parts, in one continuous print job, with no assembly or post-processing afterwards. The connected parts are oriented and spaced with clearances that allow motion or rotation between them.
 
 Print-in-place works well when it combines a rigid and a flexible material, for example PETG and TPU, so the rigid parts carry the load and the flexible parts act as springs or hinges. This makes it a multi-material print, which allows more functional parts than a single material can, but it is slower and has a higher chance of failing.
 
 Combining a rigid and a flexible material also makes bonding harder. How well two plastics bond depends on their surface energy, chemical composition, shrinkage and cooling rates, and mechanical compatibility. Materials with very different stiffness, like PETG and TPU, may not bond well on their own. One way around this is a material-locking connection designed into the CAD model, such as a form-fit (dovetail-style) joint, where the shape holds the materials together instead of relying on adhesion alone.
+
+TPU also has to be printed on a direct drive printer, because a Bowden extruder cannot reliably push flexible filament through the long tube.
+
 
 TPU also has to be printed on a direct drive printer, because a Bowden extruder cannot reliably push flexible filament through the long tube.
 
@@ -73,7 +77,7 @@ The first print was in PLA, which turned out to be too brittle for a part that f
 
 ### 5. Hinge iterations
 
-My first hinge was a simple rectangle of TPU pressed between the handles. These print quickly, so I made several, but I wanted something more secure. I redesigned the hinge with circular ends that press-fit into matching slots in the handles, so there's something holding the hinge in place instead of relying on friction alone.
+My first hinge was a simple rectangle of TPU pressed between the handles. These print quickly, so I made several, but because TPU and PETG are so different in stiffness, I didn't want to rely on friction alone to keep the hinge in place. I redesigned the hinge with circular ends that press-fit into matching slots in the handles. This works like the form-fit connections from class: the shape of the joint locks the TPU into the PETG, so the hinge stays secure without the two materials needing to bond.
 
 ## Specifications
 
@@ -83,8 +87,7 @@ My first hinge was a simple rectangle of TPU pressed between the handles. These 
 | Jaw capacity (max opening at tip) | 11 mm |
 | Overall length | 105 mm |
 | Handle spread at full open | 52 mm |
-| Pivot interference (boss vs. hole) | TODO mm |
-| Hinge insert dimensions | TODO (L × W × H) mm |
+| Hinge insert dimensions | TODO (50 × 1.8 × 8) mm |
 | Rigid material | PETG |
 | Flexible material | TPU (90A) |
 
