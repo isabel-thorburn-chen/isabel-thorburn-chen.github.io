@@ -33,21 +33,15 @@ TPU also has to be printed on a direct drive printer, because a Bowden extruder 
 
 TPU also has to be printed on a direct drive printer, because a Bowden extruder cannot reliably push flexible filament through the long tube.
 
-## Print-in-place in the wild
+### Print-in-place in the wild
 
-### [Print-in-Place Spring-Loaded Box (Instructables)](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)
+**[Print-in-Place Spring-Loaded Box (Instructables)](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)**
 
-<!-- TODO: add thumbnail as assets/img/PIP-Instructables-TH.jpg -->
-<a href="https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/"><img src="/assets/img/PIP-Instructables-TH.jpg" alt="Print-in-place spring-loaded box on Instructables" style="width:250px;"/></a>
+An application of print-in-place is a box with a built-in spring mechanism, as seen in this example. The box comes off the printer with its moving parts already working, so no assembly is needed. The tutorial walks through designing it in Fusion 360 and shares tips for making sure the moving parts don't fuse together during printing.
 
-A 12-step tutorial by SunShine on designing print-in-place parts for FDM printers in Fusion 360, using a spring-loaded box as the worked example. As well as walking through the box itself, it shares practical tricks for getting moving parts to come off the printer actually working. It was useful as a reference because it uses the same CAD software I used for my pliers.
+**[Print-in-Place: The Additive Holy Grail (Make:)](https://makezine.com/article/digital-fabrication/3d-printing-workshop/print-in-place-the-additive-holy-grail/)**
 
-### [Print-in-Place: The Additive Holy Grail (Make:)](https://makezine.com/article/digital-fabrication/3d-printing-workshop/print-in-place-the-additive-holy-grail/)
-
-<!-- TODO: add thumbnail as assets/img/PIP-Make-TH.jpg -->
-<a href="https://makezine.com/article/digital-fabrication/3d-printing-workshop/print-in-place-the-additive-holy-grail/"><img src="/assets/img/PIP-Make-TH.jpg" alt="Print-in-place article on Make:" style="width:250px;"/></a>
-
-A 2014 article by Kacie Hultgren on why print-in-place designs are such a demanding test of a 3D printer. Using Samuel N. Bernier's articulated robot as an example, where the gaps between limb parts are only just over 0.3 mm, she explains that success depends less on layer height and more on the slicer and how well the printer handles bridges, overhangs and accurate dimensions. Because there's no design standard, designers usually find the right tolerances through trial and error on their own printer, which is the same process I went through with my pin diameters. The article finishes with troubleshooting tips, such as adjusting the Z-offset so the first layer doesn't fuse joints and making small test prints before a long print.
+An application of print-in-place is an articulated figure with working joints, as seen in this example. Samuel N. Bernier's robot has movable limbs and hinges printed in one go, with gaps of just over 0.3 mm between parts. The article uses it to show how demanding print-in-place is: if the printer can't hold that gap accurately, the joints fuse together. It also explains that designers usually find the right tolerances through trial and error on their own printer, which is the same process I went through with my peg and hole sizes.
 
 ## CAD model
 
